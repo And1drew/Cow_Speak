@@ -21,5 +21,5 @@ from Moo import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('recents/', views.recent_inputs_view),
+    path('history/', views.recent_inputs_view),
 ]
